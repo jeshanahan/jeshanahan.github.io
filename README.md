@@ -1,38 +1,83 @@
-### Description
+# Joseph Shanahan — Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Personal portfolio website for Joseph Shanahan, Computer Science Engineering student at The Ohio State University.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+**Live site:** [jeshanahan.github.io](https://jeshanahan.github.io)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+Built with React and deployed to GitHub Pages. The site includes a home page, about section, project portfolio, and contact form.
 
-### Features
+## Features
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+- Fully responsive layout
+- Multi-page routing (Home, About, Portfolio, Contact)
+- Centralized content in a single config file
+- Contact form powered by [EmailJS](https://www.emailjs.com/)
+- Page transitions, theme toggle, and animated cursor
 
-### Setup
+## Tech Stack
 
-Get the code
+- React 18 (Create React App)
+- React Router
+- React Bootstrap / Bootstrap 5
+- EmailJS
+- gh-pages
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## Local Development
 
-<pre>yarn install</pre>
+Clone the repository:
 
+```bash
+git clone https://github.com/jeshanahan/jeshanahan.github.io.git
+cd jeshanahan.github.io
+```
 
-Start the server
+Install dependencies:
 
-<pre>yarn start</pre>
+```bash
+yarn install
+```
 
-### More
+Start the development server:
 
-Modify pages content in  `src/content_option.js`.
+```bash
+yarn start
+```
 
-### Thanks
+The app runs at [http://localhost:3000](http://localhost:3000).
 
-If you like this portfolio template don't forget give it a ⭐ 
+## Updating Content
+
+Most site content lives in `src/content_option.js`, including:
+
+- Name, intro text, and meta description
+- About bio, work history, and skills
+- Portfolio projects
+- Contact details and social links
+
+After editing, save the file and refresh the browser to preview changes.
+
+## Deployment
+
+Build and publish to GitHub Pages:
+
+```bash
+yarn deploy
+```
+
+The `predeploy` script builds the app and copies `index.html` to `404.html` so client-side routing works on GitHub Pages.
+
+## Project Structure
+
+```
+src/
+├── app/              # App shell and routing
+├── pages/            # Home, About, Portfolio, Contact
+├── header/           # Navigation
+├── components/       # Theme toggle, social icons
+├── hooks/            # Router and cursor helpers
+└── content_option.js # Site content and configuration
+```
+
+## Credits
+
+This project is based on the [react-portfolio](https://github.com/ubaimutl/react-portfolio) template by [ubaimutl](https://github.com/ubaimutl).
