@@ -55,7 +55,7 @@ const skills = [{
     },
     {
         name: "C#",
-        value: 70,
+        value: 80,
     },
     {
         name: "SQL",
@@ -82,7 +82,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80",
+        img: `${process.env.PUBLIC_URL}/images/job-app-tracker.png`,
         description: "Job Application Tracker — Full-stack Next.js app with user auth, application tracking, interview reminders, and a follow-up calendar. Built with Prisma, PostgreSQL, and Auth.js; deployed on Vercel.",
         link: "https://job-app-tracker-eta.vercel.app/",
         github: "https://github.com/jeshanahan/job-app-tracker",
