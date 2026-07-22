@@ -94,6 +94,8 @@ const dataportfolio = [{
     },
 ];
 
+const datagamedev = [];
+
 const contactConfig = {
     YOUR_EMAIL: "joeshanahan109@gmail.com",
     YOUR_FONE: "630-748-9817",
@@ -110,6 +112,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    datagamedev,
     worktimeline,
     skills,
     services,
