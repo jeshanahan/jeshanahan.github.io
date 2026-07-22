@@ -82,6 +82,12 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        img: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80",
+        description: "Job Application Tracker — Full-stack Next.js app with user auth, application tracking, interview reminders, and a follow-up calendar. Built with Prisma, PostgreSQL, and Auth.js; deployed on Vercel.",
+        link: "https://job-app-tracker-eta.vercel.app/",
+        github: "https://github.com/jeshanahan/job-app-tracker",
+    },
+    {
         img: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
         description: "AI Cooking Assistant — Capstone project combining Elasticsearch and OLLAMA to help users find and prepare recipes. Developed with Scrum and Git/GitHub in a team setting.",
         link: "#",

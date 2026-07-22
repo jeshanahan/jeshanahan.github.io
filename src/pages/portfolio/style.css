@@ -75,6 +75,13 @@
     font-size: 1rem;
 }
 
+.po_item .content .po_links {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .po_item .content a:hover {
     text-decoration: none;
 }

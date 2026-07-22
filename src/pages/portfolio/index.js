@@ -26,7 +26,21 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+                  <div className="po_links">
+                    {data.link && data.link !== "#" && (
+                      <a href={data.link} target="_blank" rel="noopener noreferrer">
+                        Live app
+                      </a>
+                    )}
+                    {data.github && (
+                      <a href={data.github} target="_blank" rel="noopener noreferrer">
+                        GitHub
+                      </a>
+                    )}
+                    {(!data.link || data.link === "#") && !data.github && (
+                      <a href="#">view project</a>
+                    )}
+                  </div>
                 </div>
               </div>
             );
