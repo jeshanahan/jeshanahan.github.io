@@ -82,6 +82,12 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        img: `${process.env.PUBLIC_URL}/images/raspberry-pi-homelab.svg`,
+        alt: "Raspberry Pi Homelab — Docker services, external storage, and private networking",
+        description: "Raspberry Pi Homelab — Self-hosted Ubuntu Server and Docker Compose stack with Jellyfin media automation, VPN-isolated downloads via Gluetun/WireGuard, Tailscale remote access, and external storage safeguards. Documented architecture and troubleshooting.",
+        github: "https://github.com/jeshanahan/raspberry-pi-homelab",
+    },
+    {
         img: `${process.env.PUBLIC_URL}/images/job-app-tracker.png`,
         description: "Job Application Tracker — Full-stack Next.js app with user auth, application tracking, interview reminders, and a follow-up calendar. Built with Prisma, PostgreSQL, and Auth.js; deployed on Vercel.",
         link: "https://job-app-tracker-eta.vercel.app/",

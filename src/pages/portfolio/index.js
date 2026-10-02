@@ -13,7 +13,7 @@ const ProjectGrid = ({ items }) => {
     <div className="mb-5 po_items_ho">
       {items.map((data, i) => (
         <div key={i} className="po_item">
-          <img src={data.img} alt="" />
+          <img src={data.img} alt={data.alt || ""} />
           <div className="content">
             <p>{data.description}</p>
             <div className="po_links">

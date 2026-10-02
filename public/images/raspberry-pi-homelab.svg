@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Raspberry Pi Homelab</title>
+  <desc id="desc">A Raspberry Pi running Docker services, connected to external storage, a WireGuard VPN, and Tailscale remote access.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#102c2b"/>
+      <stop offset="1" stop-color="#0b111a"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9de6ca" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#background)"/>
+  <rect width="800" height="800" fill="url(#grid)"/>
+  <g font-family="Arial, sans-serif">
+    <text x="56" y="76" fill="#8ce3bf" font-size="18" letter-spacing="4">LINUX / CONTAINERS / NETWORKING</text>
+    <text x="56" y="141" fill="#f3f8f6" font-size="44" font-weight="700">Raspberry Pi Homelab</text>
+    <text x="56" y="183" fill="#a8bdbb" font-size="24">Small hardware. A complete self-hosted stack.</text>
+    <g fill="none" stroke="#72cca9" stroke-width="3">
+      <path d="M400 318V270H176V318M400 270H624V318"/>
+      <path d="M400 518V573H176V625M400 573H624V625"/>
+    </g>
+    <g fill="#112327" stroke="#38564f" stroke-width="2">
+      <rect x="56" y="318" width="240" height="112" rx="14"/>
+      <rect x="504" y="318" width="240" height="112" rx="14"/>
+      <rect x="56" y="625" width="240" height="112" rx="14"/>
+      <rect x="504" y="625" width="240" height="112" rx="14"/>
+    </g>
+    <g text-anchor="middle">
+      <g fill="#eff8f4" font-size="24" font-weight="700">
+        <text x="176" y="363">WireGuard VPN</text>
+        <text x="624" y="363">Tailscale</text>
+        <text x="176" y="670">Jellyfin + *arr</text>
+        <text x="624" y="670">2 TB Storage</text>
+      </g>
+      <g fill="#9dbbb3" font-size="19">
+        <text x="176" y="397">Gluetun gateway</text>
+        <text x="624" y="397">Private remote access</text>
+        <text x="176" y="704">Media automation</text>
+        <text x="624" y="704">External USB drive</text>
+      </g>
+    </g>
+    <rect x="310" y="332" width="180" height="186" rx="18" fill="#2d6955" stroke="#8ce3bf" stroke-width="3"/>
+    <g fill="#142c27" stroke="#8ce3bf" stroke-width="2">
+      <rect x="361" y="359" width="78" height="67" rx="7"/>
+      <path d="M371 349V359M390 349V359M410 349V359M429 349V359M371 426V436M390 426V436M410 426V436M429 426V436"/>
+    </g>
+    <g fill="#f3f8f6" text-anchor="middle">
+      <text x="400" y="405" font-size="30" font-weight="700">Pi 4</text>
+      <text x="400" y="466" font-size="20">Ubuntu Server</text>
+      <text x="400" y="495" font-size="18">Docker Compose</text>
+    </g>
+    <g fill="#8ce3bf">
+      <circle cx="400" cy="270" r="6"/>
+      <circle cx="400" cy="573" r="6"/>
+    </g>
+  </g>
+</svg>
